@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "dancing";
+  src: url("/statics/fonts/dancing-script/DancingScript-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "roboto-mono";
+  src: url("/statics/fonts/roboto-mono/RobotoMono-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+body {
+  margin: 0px;
+  font-family: "roboto-mono";
+}
+
+h1,
+p#subheading {
+  text-align: center;
+}
+
+h1 {
+  color: #546e7a;
+}
+
+p#subheading {
+  color: #b0bec5;
+  margin: 0px;
+  font-size: 1.2rem;
+}
+
+header#main-header {
+  padding: 5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-size: 2rem;
+  padding: 1.5rem;
+  background-color: #000;
+  margin: 0px;
+  margin-top: 5rem;
+  color: #fff;
+  width: max-content;
+}
+
+img#avatar {
+  width: 8rem;
+  border-radius: 20rem;
+  border: solid #546e7a 0.3rem;
+}
+
+div#skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+div.skill-image-container,
+div.project-image-container {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+img.skill-image {
+  height: 12rem;
+  width: auto;
+  max-width: 90vw;
+}
+
+div.skill {
+  margin-bottom: 2rem;
+  flex-grow: 1;
+}
+
+p.skill-caption {
+  font-size: 2rem;
+  text-align: center;
+  color: #90a4ae;
+  font-weight: 300;
+}
+
+div#projects {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+img.project-image {
+  height: 12rem;
+  width: auto;
+  max-width: 90vw;
+}
+
+div.project {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: #37474f;
+  font-weight: 800;
+}
+
+p {
+  color: #78909c;
+}
+
+div.project-description {
+  margin-left: 4rem;
+  padding: 2rem;
+  border-left: solid #cfd8dc;
+  max-width: 35rem;
+}
