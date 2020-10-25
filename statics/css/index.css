@@ -37,6 +37,19 @@ header#main-header {
   align-items: center;
 }
 
+div#contact-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div#contact-info > a {
+  margin: 0px 1rem;
+}
+
 h3 {
   font-size: 2rem;
   padding: 1.5rem;
@@ -138,4 +151,8 @@ div.project-description {
     border-left: solid #cfd8dc;
     max-width: 35rem;
   }
+}
+
+div#github-feed {
+  max-width: 98vw;
 }
